@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #360369;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading{
+    font-size: 80px;
+    line-height: 150px;
+    font-weight: 800;
+    white-space: pre;
+}
+#btn{
+    font-size: 30px;
+    background-color: whitesmoke;
+    color: lightgreen;
+    padding: 10px 50px;
+    transition: 0.5 ease;
+}
+#btn:hover{
+    scale: 1.01;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40vh;
+}
